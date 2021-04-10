@@ -1,0 +1,65 @@
+.formulaire{
+  width: 500px;
+  height: auto;
+  padding-top: 30px;
+  border-radius: 4px;
+  margin: auto;
+  background-image: radial-gradient(circle 7px at 23% 62%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 25% 58%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 57% 71%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 65% 94%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 22% 15%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 22% 76%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 66% 78%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 12% 17%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 73% 76%, rgb(43,43,43) 0%, rgb(43,43,43) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 84% 91%, rgb(43,43,43) 0%, rgb(43,43,43) 50%,transparent 50%, transparent 100%),radial-gradient(circle at bottom left, rgb(35,35,35) 0%, rgb(35,35,35) 10%,transparent 10%, transparent 90%),linear-gradient(135deg, rgb(181,0,237),rgb(36,9,119));
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  height: 50px;
+}
+.title input{
+  float: right;
+  font-size: 18px;
+  width: 80%;
+  height: 100%;
+}
+.title label{
+  font-size: 20px;
+  padding-right: 10px;
+  color: white;
+  font-weight: 600;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.content textarea{
+  width: 80%;
+  font-size: 20px;
+  height: 100%;
+}
+.content label{
+  font-size: 20px;
+  padding-right: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-form{
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  font-size: 18px;
+  border-radius: 3px;
+  border-bottom-right-radius: 3px;
+  cursor: pointer;
+}
